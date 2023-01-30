@@ -56,13 +56,23 @@ public class HelperLogin extends HelperBase{
     public void fillRegistrationForm(UserRegistrationRequired required) {
         type(By.id("FirstNameInput"), required.getFirstName());
         type(By.id("LastNameInput"), required.getLastName());
-        click(By.id("register_user_homepage_details_combobox"));
-        click(By.xpath("//*[@id='react-select-6-option-2']"));
+        click(By.xpath("//form/div[4]/div/div[1]/span/div/div"));
+        new WebDriverWait(driver, 5)
+                .until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//*[@class='css-15k3avv pl-select__menu']")));
+        click(By.xpath("//*[text()='Report']"));
+        click(By.xpath("//form/div[4]/div/div[2]/span"));
+        new WebDriverWait(driver, 5)
+                .until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//*[@class='css-15k3avv pl-select__menu']")));
+        click(By.xpath("//*[text()='Alerted Rolls']"));
         type(By.id("PasswordInput"), required.getPassword());
         type(By.id("ConfirmPasswordInput"), required.getConfirmPassword());
+        //click(By.xpath("//*[@id='registerSubmit']"));
     }
 
     public void logOut() {
+        click(By.xpath("//*[@class='pl pl-profile pointer']"));
+        click(By.xpath("//*[text()='Log Out']"));
+
 
     }
 }

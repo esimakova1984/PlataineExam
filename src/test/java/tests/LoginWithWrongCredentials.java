@@ -10,11 +10,13 @@ public class LoginWithWrongCredentials extends TestBase {
         app.getHelperLogin().fillLoginForm("", "admin", "Qwerty123");
         Assert.assertTrue(app.getHelperLogin().isErrorImageDispalyed());
     }
+
     @Test
     public void LoginWithEmptyUserNameField(){
         app.getHelperLogin().fillLoginForm("ekaterina1", " ", "Qwerty123");
         Assert.assertTrue(app.getHelperLogin().isErrorImageDispalyed());
     }
+
     @Test
    public void LoginWithEmptyPasswordField(){
         app.getHelperLogin().fillLoginForm("ekaterina1", "admin", " ");
