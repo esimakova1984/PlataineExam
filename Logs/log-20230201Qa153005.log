@@ -1,0 +1,2 @@
+15:30:06.810  INFO  manager.ApplicationManager - All tests start with Chromedriver
+15:30:08.869  INFO  tests.TestBase - The test starts e2e test

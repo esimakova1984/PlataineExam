@@ -96,7 +96,7 @@ public class HelperLogin extends HelperBase{
 
     public boolean isOrganizationfieldPresent() {
         return new WebDriverWait(driver,  10)
-                .until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath(organization))))
+                .until(ExpectedConditions.visibilityOf(driver.findElement(By.id(organization))))
                 .isDisplayed();
     }
 }

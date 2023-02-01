@@ -1,0 +1,7 @@
+15:37:31.180  INFO  manager.ApplicationManager - All tests start with Chromedriver
+15:37:33.247  INFO  tests.TestBase - The test starts e2e test
+15:37:33.699  INFO  tests.TestBase - The login form is filled with data: User(organization=ekaterina1, userName=admin5, password=A12345a)
+15:37:38.318  INFO  tests.TestBase - The user logged out
+15:37:38.380  INFO  tests.TestBase - The Login form for new organization is opened
+15:37:38.721  INFO  tests.TestBase - The login form is filled with data: User(organization=ekaterina1, userName=admin8, password=Qwerty123)
+15:37:40.706  INFO  tests.TestBase - The First Login form is opened

@@ -22,7 +22,7 @@ public class ApplicationManager {
     }
 
     public void stop(){
-       //driver.quit();
+       driver.quit();
 
     }
 
