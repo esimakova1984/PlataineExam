@@ -9,7 +9,7 @@ import lombok.ToString;
 @Setter
 @Builder
 @ToString
-public class UserRegistrationRequired {
+public class UserFirstLoginForm {
     String firstName;
     String lastName;
     String password;

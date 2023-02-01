@@ -24,4 +24,5 @@ public class HelperBase {
     public void click(By locator) {
         driver.findElement(locator).click();
     }
+
 }

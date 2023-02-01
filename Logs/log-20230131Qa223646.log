@@ -1,0 +1,29 @@
+22:36:48.604  INFO  manager.ApplicationManager - All tests start with Chromedriver
+22:36:50.892  INFO  tests.TestBase - The test starts login with empty organization field
+22:36:51.297  INFO  tests.TestBase - The login form is filled except organization field
+22:36:51.371  INFO  tests.TestBase - The error image is displayed
+22:36:51.371  INFO  tests.TestBase - Test passed successfully
+22:36:51.374  INFO  tests.TestBase - The test starts login with empty password field
+22:36:51.643  INFO  tests.TestBase - The login form is filled except password field
+22:36:51.683  INFO  tests.TestBase - The error image is displayed
+22:36:51.683  INFO  tests.TestBase - Test passed successfully
+22:36:51.684  INFO  tests.TestBase - The test starts login with empty user name field
+22:36:51.967  INFO  tests.TestBase - The login form is filled except user name field
+22:36:52.014  INFO  tests.TestBase - The error image is displayed
+22:36:52.014  INFO  tests.TestBase - Test passed successfully
+22:36:52.015  INFO  tests.TestBase - The test starts login with unauthorized user
+22:36:52.294  INFO  tests.TestBase - The login form is filled with unauthorized user valid data
+22:36:54.002  INFO  tests.TestBase - The error message is displayed
+22:36:54.019  INFO  tests.TestBase - Test passed successfully
+22:36:54.021  INFO  tests.TestBase - The test starts login with wrong password
+22:36:54.384  INFO  tests.TestBase - The login form is filled with valid data and wrong organization
+22:36:54.399  INFO  tests.TestBase - The error message is displayed
+22:36:54.403  INFO  tests.TestBase - Test passed successfully
+22:36:54.404  INFO  tests.TestBase - The test starts login with wrong password
+22:36:54.684  INFO  tests.TestBase - The login form is filled with valid data and wrong password
+22:36:54.695  INFO  tests.TestBase - The error message is displayed
+22:36:54.695  INFO  tests.TestBase - Test passed successfully
+22:36:54.696  INFO  tests.TestBase - The test starts login with wrong password
+22:36:54.956  INFO  tests.TestBase - The login form is filled with valid data and wrong user name
+22:36:55.994  INFO  tests.TestBase - The error message is displayed
+22:36:55.994  INFO  tests.TestBase - Test passed successfully

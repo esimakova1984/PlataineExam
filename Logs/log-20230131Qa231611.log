@@ -1,0 +1,4 @@
+23:16:13.937  INFO  manager.ApplicationManager - All tests start with Chromedriver
+23:16:15.997  INFO  tests.TestBase - The test starts positive login with valid registered data
+23:16:16.460  INFO  tests.TestBase - The login form is filled with data: User(organization=ekaterina1, userName=admin5, password=A12345a)
+23:16:19.827  INFO  tests.TestBase - Test passed successfully
