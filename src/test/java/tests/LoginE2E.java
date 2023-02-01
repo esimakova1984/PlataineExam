@@ -10,12 +10,12 @@ import org.testng.annotations.Test;
 
         User user1 = User.builder()
                 .organization("ekaterina1")
-                .userName("admin9")
+                .userName("admin10")
                 .password("Qwerty123")
                 .build();
          User user2 = User.builder()
                  .organization("ekaterina2")
-                 .userName("admin6")
+                 .userName("admin7")
                  .password("Qwerty123")
                  .build();
 
